@@ -1,0 +1,9 @@
+@echo off
+echo Starting BFHL API...
+echo.
+echo Building the project...
+call mvn clean install
+echo.
+echo Starting the application...
+call mvn spring-boot:run
+pause
